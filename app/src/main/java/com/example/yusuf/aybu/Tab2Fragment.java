@@ -47,8 +47,8 @@ public class Tab2Fragment extends Fragment{
         new duyuruCek().execute();
         return view;
     }
-
     public class duyuruCek extends AsyncTask<Void,Void,Void> {
+
 
         @Override
         protected Void doInBackground(Void... voids) {

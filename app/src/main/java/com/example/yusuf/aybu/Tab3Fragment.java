@@ -44,7 +44,6 @@ public class Tab3Fragment extends Fragment{
 
 
 
-
         new haberCek().execute();
         return view;
     }
