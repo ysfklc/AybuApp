@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab1Fragment"
+    android:background="#00ffee">
+
+        <ProgressBar
+            android:id="@+id/progBar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:textSize="30sp"
+            android:text="--/--/----"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#ff0000"
+            android:id="@+id/date"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yemek_listesi"
+            android:layout_below="@+id/date"/>
+
+</RelativeLayout>
